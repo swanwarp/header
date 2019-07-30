@@ -4,63 +4,62 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="semantic/semantic.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="ui container" style="width: 100%">
-        <div class="ui dividing header" style="width: inherit">
-            <div class="ui borderless menu" style="width: 90%; margin-left: 5%; border: none">
-                <div class="ui red button item" style="background: #EC4D4A; color: white">
+    <div class="ui container headerContainer" style="width: 100%">
+        <div class="ui dividing header topDividingHeader">
+            <div class="ui borderless menu topMenu">
+                <div class="ui red button item channelButton">
                     CHANNEL
                 </div>
-                <img src="HQ_Logo.svg" alt="hq_logo" style="width: 1%; height: 1%; margin-top: 0.65%; margin-left: 0.5%">
-                <div class="ui dropdown item" style="margin-left: -0.5%">
+                <img src="HQ_Logo.svg" alt="hq_logo" class="hqLogo">
+                <div class="ui dropdown item dropdownTop">
                     <div class="text">Radio 3 Shuttle</div>
                     <i class="dropdown icon"></i>
                 </div>
-                <div class="borderless right menu">
-                    <div class="header item" style="color: grey">
+                <div class="borderless right menu rightMenu">
+                    <div class="header item dateAndTime">
                         <i class="ui grey clock icon"></i>
                         Saturday, 22 December 2018 - 10:30 PM UTC+12
                     </div>
-                    <div class="ui button item" style="margin-right: -1%; color: black">
+                    <div class="ui button item signInButton">
                         <i class="sign-in icon"></i>
                         Sign In
                     </div>
                 </div>
             </div>
         </div>
-        <div class="ui dividing header" style="width: inherit">
-            <div class="ui container" style="width: 100%;">
-                <img src="Logo.svg" alt="logo" style="margin-top: 1%; margin-left: 5%">
-                <div class="ui container" style="float: right; width: 30%">
-                    <div class="ui buttons" style="margin-left: 37%; margin-top: -5%; width: 140px; height: 28px">
-                        <div class="ui button" style="color: black; background: #F2F2F2; border: 1px solid #E5E5E5; margin-top: -5%">
-                            On Air
-                        </div>
-                        <div class="ui button" style="color: black; background: white; border: 1px solid #E5E5E5; margin-top: -5%">Coming Up</div>
+        <div class="ui dividing header navigationDividingHeader">
+            <div class="ui container logoContainer">
+                <img src="Logo.svg" alt="logo" class="logo">
+                <div class="ui container onAirContainer">
+                    <div class="ui buttons onAirComingButtons">
+                        <div class="ui button onAirButton">On Air</div>
+                        <div class="ui button comingButton">Coming Up</div>
                     </div>
                     <div>
-                        <div class="ui three column grid" style="width: 100%; margin-top: 0.1%">
-                            <div class="column" style="width: 30%">
+                        <div class="ui three column grid onAirGrid">
+                            <div class="column liveTimeColumn">
                                 <div class="two row grid">
-                                    <div class="red row" style="margin-left: 65%; background: #EC4D4A">
-                                        <span style="font-size: medium; color: white; margin-left: 10%">LIVE</span>
+                                    <div class="row liveRow">
+                                        <span class="liveSpan">LIVE</span>
                                     </div>
-                                    <div class="black row" style="margin-left: 25%; background: black;">
-                                        <span style="font-size: medium; color: white; margin-left: 5%">14:00-15:30</span>
+                                    <div class="row timeRow">
+                                        <span class="timeSpan">14:00-15:30</span>
                                     </div>
                                 </div>
                             </div>
-                            <div class="column" style="width: 20%">
-                                <img src="Group.svg" alt="group" style="margin-left: -40%; height: 83%">
+                            <div class="column groupColumn">
+                                <img src="Group.svg" alt="group" class="groupSVG">
                             </div>
-                            <div class="column" style="width: 50%">
+                            <div class="column nameColumn">
                                 <div class="two row grid">
-                                    <div class="red row" style="margin-left: -24%">
-                                        <span style="font-size: medium;">Pure American Country Radio Show</span>
+                                    <div class="row nowNextRow">
+                                        <span class="nowSpan">Pure American Country Radio Show</span>
                                     </div>
-                                    <div class="black row" style="margin-left: -24%">
-                                        <span style="font-size: small; color: grey;">Stanley Fisher</span>
+                                    <div class="row nowNextRow">
+                                        <span class="nextSpan">Stanley Fisher</span>
                                     </div>
                                 </div>
                             </div>
@@ -68,7 +67,7 @@
                     </div>
                 </div>
             </div>
-            <div class="ui borderless inverted menu" style="width: 90%; height: 64px; margin-left: 5%;">
+            <div class="ui borderless inverted menu invertedNavigationMenu">
                 <div class="header item">Home</div>
                 <div class="ui dropdown item">
                     World
@@ -95,14 +94,14 @@
                     <i class="dropdown icon"></i>
                 </div>
                 <div class="header item">
-                    <img src="Rectangle%203.2.svg" alt="rect" style="width: 50%; margin-left: -3px">
-                    <img src="Rectangle%203.2.svg" alt="rect" style="width: 50%; margin-left: 3px">
-                    <img src="Rectangle%203.2.svg" alt="rect" style="width: 50%; margin-left: 3px">
+                    <img src="Rectangle%203.2.svg" alt="rect" class="firstRectangleSVG" style="width: 50%; margin-left: -3px">
+                    <img src="Rectangle%203.2.svg" alt="rect" class="rectangleSVG" style="width: 50%; margin-left: 3px">
+                    <img src="Rectangle%203.2.svg" alt="rect" class="rectangleSVG" style="width: 50%; margin-left: 3px">
                 </div>
-                <div class="right menu" style="margin-right: -1%">
-                    <div class="ui blue labeled icon button" style="color: white">
+                <div class="right menu listenNow">
+                    <div class="ui blue labeled icon button listenButton">
                         <i class="play icon"></i>
-                        <div class="text" style="margin-top: 35%">Listen Now</div>
+                        <div class="text listenSpan">Listen Now</div>
                     </div>
                 </div>
             </div>

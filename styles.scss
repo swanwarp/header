@@ -1,0 +1,166 @@
+.headerContainer {
+  width: 100%;
+
+  .topDividingHeader {
+    width: inherit;
+
+    .topMenu {
+      width: 90%;
+      margin-left: 5%;
+      border: none;
+
+      .channelButton {
+        background: #EC4D4A;
+        color: white;
+      }
+
+      .hqLogo {
+        width: 1%;
+        height: 1%;
+        margin-top: 0.65%;
+        margin-left: 0.5%;
+      }
+
+      .dropdownTop {
+        margin-left: -0.5%;
+      }
+
+      .rightMenu {
+        .dateAndTime {
+          color: grey;
+        }
+        .signInButton {
+          margin-left: -1%;
+          color: black;
+        }
+      }
+    }
+  }
+
+  .navigationDividingHeader {
+    width: inherit;
+
+    .logoContainer {
+      width: 100%;
+
+      .logo {
+        margin-top: 1%;
+        margin-left: 5%;
+      }
+
+      .onAirContainer {
+        float: right;
+        width: 30%;
+
+        .onAirComingButtons {
+          margin-left: 37%;
+          margin-top: -5%;
+          width: 140px;
+          height: 28px;
+
+          .onAirButton {
+            color: black;
+            background: #F2F2F2;
+            border: 1px solid #E5E5E5;
+            margin-top: -5%;
+          }
+
+          .comingButton {
+            color: black;
+            background: white;
+            border: 1px solid #E5E5E5;
+            margin-top: -5%;
+          }
+        }
+
+        .onAirGrid {
+          width: 100%;
+          margin-top: 0.1%;
+
+          .liveTimeColumn {
+            width: 30%;
+
+            .liveRow {
+              margin-left: 65%;
+              background: #EC4D4A;
+
+              .liveSpan {
+                font-size: medium;
+                color: white;
+                margin-left: 10%;
+              }
+            }
+
+            .timeRow {
+              margin-left: 25%;
+              background: black;
+
+              .timeSpan {
+                font-size: medium;
+                color: white;
+                margin-left: 5%;
+              }
+            }
+          }
+
+          .groupColumn {
+            width: 20%;
+
+            .groupSVG {
+              margin-left: -40%;
+              height: 83%
+            }
+          }
+
+          .nameColumn {
+            width: 50%;
+
+            .nowNextRow {
+              margin-left: -24%;
+
+              .nowSpan {
+                font-size: medium;
+              }
+
+              .nextSpan {
+                font-size: small;
+                color: grey;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .invertedNavigationMenu {
+      width: 90%;
+      height: 64px;
+      margin-left: 5%;
+
+      .firstRectangleSVG {
+        width: 50%;
+        margin-left: -3px;
+      }
+
+      .rectangleSVG {
+        width: 50%;
+        margin-left: 3px;
+      }
+
+      .listenNow {
+        margin-right: -1%;
+
+        .listenButton {
+          color: white;
+
+          .listenSpan {
+            margin-top: 35%;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+

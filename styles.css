@@ -1,0 +1,132 @@
+.headerContainer {
+  width: 100%;
+}
+.headerContainer .topDividingHeader {
+  width: inherit;
+}
+.headerContainer .topDividingHeader .topMenu {
+  width: 90%;
+  margin-left: 5%;
+  border: none;
+}
+.headerContainer .topDividingHeader .topMenu .channelButton {
+  background: #EC4D4A;
+  color: white;
+}
+.headerContainer .topDividingHeader .topMenu .hqLogo {
+  width: 1%;
+  height: 1%;
+  margin-top: 0.65%;
+  margin-left: 0.5%;
+}
+.headerContainer .topDividingHeader .topMenu .dropdownTop {
+  margin-left: -0.5%;
+}
+.headerContainer .topDividingHeader .topMenu .rightMenu .dateAndTime {
+  color: grey;
+}
+.headerContainer .topDividingHeader .topMenu .rightMenu .signInButton {
+  margin-left: -1%;
+  color: black;
+}
+.headerContainer .navigationDividingHeader {
+  width: inherit;
+}
+.headerContainer .navigationDividingHeader .logoContainer {
+  width: 100%;
+}
+.headerContainer .navigationDividingHeader .logoContainer .logo {
+  margin-top: 1%;
+  margin-left: 5%;
+}
+.headerContainer .navigationDividingHeader .logoContainer .onAirContainer {
+  float: right;
+  width: 30%;
+}
+.headerContainer .navigationDividingHeader .logoContainer .onAirContainer .onAirComingButtons {
+  margin-left: 37%;
+  margin-top: -5%;
+  width: 140px;
+  height: 28px;
+}
+.headerContainer .navigationDividingHeader .logoContainer .onAirContainer .onAirComingButtons .onAirButton {
+  color: black;
+  background: #F2F2F2;
+  border: 1px solid #E5E5E5;
+  margin-top: -5%;
+}
+.headerContainer .navigationDividingHeader .logoContainer .onAirContainer .onAirComingButtons .comingButton {
+  color: black;
+  background: white;
+  border: 1px solid #E5E5E5;
+  margin-top: -5%;
+}
+.headerContainer .navigationDividingHeader .logoContainer .onAirContainer .onAirGrid {
+  width: 100%;
+  margin-top: 0.1%;
+}
+.headerContainer .navigationDividingHeader .logoContainer .onAirContainer .onAirGrid .liveTimeColumn {
+  width: 30%;
+}
+.headerContainer .navigationDividingHeader .logoContainer .onAirContainer .onAirGrid .liveTimeColumn .liveRow {
+  margin-left: 65%;
+  background: #EC4D4A;
+}
+.headerContainer .navigationDividingHeader .logoContainer .onAirContainer .onAirGrid .liveTimeColumn .liveRow .liveSpan {
+  font-size: medium;
+  color: white;
+  margin-left: 10%;
+}
+.headerContainer .navigationDividingHeader .logoContainer .onAirContainer .onAirGrid .liveTimeColumn .timeRow {
+  margin-left: 25%;
+  background: black;
+}
+.headerContainer .navigationDividingHeader .logoContainer .onAirContainer .onAirGrid .liveTimeColumn .timeRow .timeSpan {
+  font-size: medium;
+  color: white;
+  margin-left: 5%;
+}
+.headerContainer .navigationDividingHeader .logoContainer .onAirContainer .onAirGrid .groupColumn {
+  width: 20%;
+}
+.headerContainer .navigationDividingHeader .logoContainer .onAirContainer .onAirGrid .groupColumn .groupSVG {
+  margin-left: -40%;
+  height: 83%;
+}
+.headerContainer .navigationDividingHeader .logoContainer .onAirContainer .onAirGrid .nameColumn {
+  width: 50%;
+}
+.headerContainer .navigationDividingHeader .logoContainer .onAirContainer .onAirGrid .nameColumn .nowNextRow {
+  margin-left: -24%;
+}
+.headerContainer .navigationDividingHeader .logoContainer .onAirContainer .onAirGrid .nameColumn .nowNextRow .nowSpan {
+  font-size: medium;
+}
+.headerContainer .navigationDividingHeader .logoContainer .onAirContainer .onAirGrid .nameColumn .nowNextRow .nextSpan {
+  font-size: small;
+  color: grey;
+}
+.headerContainer .navigationDividingHeader .invertedNavigationMenu {
+  width: 90%;
+  height: 64px;
+  margin-left: 5%;
+}
+.headerContainer .navigationDividingHeader .invertedNavigationMenu .firstRectangleSVG {
+  width: 50%;
+  margin-left: -3px;
+}
+.headerContainer .navigationDividingHeader .invertedNavigationMenu .rectangleSVG {
+  width: 50%;
+  margin-left: 3px;
+}
+.headerContainer .navigationDividingHeader .invertedNavigationMenu .listenNow {
+  margin-right: -1%;
+}
+.headerContainer .navigationDividingHeader .invertedNavigationMenu .listenNow .listenButton {
+  color: white;
+}
+.headerContainer .navigationDividingHeader .invertedNavigationMenu .listenNow .listenButton .listenSpan {
+  margin-top: 35%;
+}
+
+/*# sourceMappingURL=styles.css.map */
