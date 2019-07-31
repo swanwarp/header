@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap");
+
+$full-width: 360px;
+$inner-width: 300px;
+
+.follow-widget {
+  width: $full-width;
+  height: 450px;
+  border: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  border-radius: 1px;
+
+  .follow-us-container {
+    margin-top: 20px;
+
+    .follow-us {
+      margin-left: 28px;
+
+      font-family: Poppins, sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 30px;
+
+      color: #3389FF;
+    }
+
+    .thumbs-up {
+      float: right;
+
+      margin-right: 30px;
+      margin-top: 8px;
+
+      color: #3389FF;
+    }
+  }
+
+  .divider-rect {
+    width: $inner-width;
+    height: 1px;
+
+    margin-left: 30px;
+    margin-top: 20px;
+
+    color: #E5E5E5;
+  }
+
+  .button-container {
+    margin-top: 20px;
+
+    width: $full-width;
+    height: 48px;
+    position: center;
+
+    .button-properties {
+      width: 140px;
+      height: 48px;
+
+      border-radius: 2px;
+
+      color: white;
+
+      text-align: left;
+
+      .button-icon {
+        margin-left: 18px;
+        margin-top: 17px;
+      }
+
+      .followers-number {
+        font-family: Poppins, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+
+        margin-left: -10px;
+        margin-top: -3px;
+      }
+
+      .followers-name {
+        font-family: Lato, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 12px;
+
+        margin-left: -10px;
+        margin-top: -3px;
+      }
+    }
+
+    $first-column-margin: 30px;
+    $second-column-margin: 15px;
+
+    .facebook-button {
+      margin-left: $first-column-margin;
+      background: #5277CA;
+    }
+
+    .twitter-button {
+      margin-left: $second-column-margin;
+      background: #38B7F3;
+    }
+
+    .google-button {
+       margin-left: $first-column-margin;
+       background: #E85343;
+     }
+
+    .youtube-button {
+      margin-left: $second-column-margin;
+      background: #DD2A31;
+    }
+
+    .vimeo-button {
+      margin-left: $first-column-margin;
+      background: #2EBEE7;
+    }
+
+    .dribble-button {
+      margin-left: $second-column-margin;
+      background: #F65A91;
+    }
+
+    .soundcloud-button {
+      margin-left: $first-column-margin;
+      background: #FF722A;
+    }
+
+    .behance-button {
+      margin-left: $second-column-margin;
+      background: #156EFD;
+    }
+
+    .instagram-button {
+      margin-left: $first-column-margin;
+      background: #308CEE;
+    }
+
+    .github-button {
+      margin-left: $second-column-margin;
+      background: #3786C4;
+    }
+  }
+}

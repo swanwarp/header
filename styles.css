@@ -101,6 +101,7 @@
 }
 .headerContainer .navigationDividingHeader .logoContainer .onAirContainer .onAirGrid .nameColumn .nowNextRow .nowSpan {
   font-size: medium;
+  font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 .headerContainer .navigationDividingHeader .logoContainer .onAirContainer .onAirGrid .nameColumn .nowNextRow .nextSpan {
   font-size: small;
